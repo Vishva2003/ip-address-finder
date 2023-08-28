@@ -106,7 +106,7 @@ const generateMap = () => {
   return (lat, lon) => {
     // reset the map div
     if (L.DomUtil.get('map') !== undefined) {
-      L.DomUtil.get('map')._leaflet_id = null;
+       L.DomUtil.get('map')._leaflet_id = null;
     }
 
     // indicate the location on the map using latitude and longitude
